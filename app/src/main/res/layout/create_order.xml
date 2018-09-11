@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/create_order_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit an Order"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/create_order_input_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Dining Name" />
+
+        <EditText
+            android:id="@+id/create_order_input_allergens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Allergens" />
+
+    <EditText
+        android:id="@+id/create_order_input_pickuptime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="10:35" />
+
+    <Button
+        android:id="@+id/button_create_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>

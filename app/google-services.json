@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "409523588799",
+    "firebase_url": "https://dukefoodapp.firebaseio.com",
+    "project_id": "dukefoodapp",
+    "storage_bucket": "dukefoodapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409523588799:android:dda97fa6f30dfaf1",
+        "android_client_info": {
+          "package_name": "edu.duke.compsci290.dukefoodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409523588799-ap9hgbcdrob6qqn8pbm82tdlg5cfnvcm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.duke.compsci290.dukefoodapp",
+            "certificate_hash": "7cd6fdbe6ff46ed103792995839bd2d726099b45"
+          }
+        },
+        {
+          "client_id": "409523588799-bqbqmchm3n594uo5uktehsbj3abssbff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyb9R7ZFNZz9QUtjuOq__yCNULTqJmQNs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409523588799-bqbqmchm3n594uo5uktehsbj3abssbff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

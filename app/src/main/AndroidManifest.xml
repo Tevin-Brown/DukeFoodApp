@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.duke.compsci290.dukefoodapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login.ChooserActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login.EmailPasswordActivity" />
+        <activity android:name=".login.GoogleSignInActivity" />
+        <activity android:name=".UserActivities.UserActivity" />
+        <activity android:name=".UserActivities.CalendarActivity" />
+        <activity android:name=".UserActivities.DayActivity" />
+        <activity android:name=".UserActivities.MyOrdersActivity" />
+        <activity android:name=".UserActivities.UserPreferencesActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.API_KEY"
+            android:value="AIzaSyAkggKlw3iz_4c7WHor-ES4SgI0CcI4xNg" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAkggKlw3iz_4c7WHor-ES4SgI0CcI4xNg" />
+
+        <activity android:name=".UserActivities.StreetViewActivity"></activity>
+    </application>
+
+</manifest>

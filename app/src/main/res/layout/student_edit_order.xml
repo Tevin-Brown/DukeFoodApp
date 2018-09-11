@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/student_edit_dn"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:textSize="25dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/student_edit_allergens"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:textSize="25dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/student_edit_dining_location"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:textSize="25dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/student_edit_dining_pt"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:textSize="25dp"
+        android:textColor="#000000"/>
+
+
+    <Button
+        android:id="@+id/student_accept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept" />
+
+
+</LinearLayout>
